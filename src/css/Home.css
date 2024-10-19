@@ -158,7 +158,7 @@
 #icon_react {
     position: absolute;
     padding: 10px;
-/* color: rgb(89, 255, 100); */
+    /* color: rgb(89, 255, 100); */
     height: 60px;
     width: 60px;
     /* background-color: red; */
@@ -182,7 +182,7 @@
 #icon_boot {
     position: absolute;
     padding: 10px;
-/* color: rgb(89, 255, 100); */
+    /* color: rgb(89, 255, 100); */
     height: 60px;
     width: 60px;
     /* background-color: red; */
@@ -207,7 +207,7 @@
 #icon_ang {
     position: absolute;
     padding: 10px;
-/* color: rgb(89, 255, 100); */
+    /* color: rgb(89, 255, 100); */
     height: 60px;
     width: 60px;
     /* background-color: red; */
@@ -227,7 +227,7 @@
 
 #icon_php img {
     width: 200%;
-    height:100%;
+    height: 100%;
     position: relative;
     right: 20px;
 }
@@ -235,7 +235,7 @@
 #icon_php {
     position: absolute;
     padding: 10px;
-/* color: rgb(89, 255, 100); */
+    /* color: rgb(89, 255, 100); */
     height: 60px;
     width: 60px;
     /* background-color: red; */
@@ -251,7 +251,7 @@
     backdrop-filter: blur(6.4px);
 }
 
-.box2-resv{
+.box2-resv {
     position: absolute;
     /* padding: 30px; */
     height: 100px;
@@ -274,19 +274,225 @@
     bottom: 250px;
 }
 
-.Resume-bx{
+.Resume-bx {
     position: relative;
     top: 7px;
 }
-.Resume-tx{
+
+.Resume-tx {
     position: relative;
     left: 5px;
 }
-.Resume{
+
+.Resume {
     width: 150px;
     position: relative;
     top: 5px;
     /* background-color: transparent; */
     /* color: blue; */
+
+}
+
+.fbf{
+    display: flex;
+}
+
+.clfbf{
+    display: flex;
+    padding: 20px;
+    position: relative;
+    top: 80px;
+    right: 170px;
+    color: rgb(16, 16, 56);
+}
+.clfbf:hover{
+    color: rgb(28, 28, 105);
+}
+.clfbf b{
+    position: relative;
+    left: 6px;
+    bottom: 2px;
+    cursor: pointer;
+}
+.gResume{
+    background-color: #fdc492;
+    border: 0px ;
+    padding: 10px;
+    width: 150px;
+    position: relative;
+    top: 80px;
+    right: 120px;
+    color: #dc511a ;
+    font-family: Arial black;
+    border-radius: 10px;
+}
+.gResume:hover{
+    background-color: #ed875e;
+    color: #ffffff ;
+}
+
+.card1 , .card2 , .card4 , .card3{
+
+    /* From https://css.glass */
+background:  rgba(255, 253, 155, 0.66);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.8px);
+-webkit-backdrop-filter: blur(8.8px);
+border: 1px solid rgba(255, 255, 255, 1);
+
+
+    /* background-color: rgb(255, 253, 155); */
+    width:  250px;
+    height: 110px;
+    border-radius: 10px;
+}
+
+.card2{
+    /* From https://css.glass */
+background: rgba(140, 202, 253, 0.625);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.8px);
+-webkit-backdrop-filter: blur(8.8px);
+border: 1px solid rgba(255, 255, 255, 1);
+
+    /* background-color: rgb(140, 202, 253); */
+   
+}
+
+.card3{
+    /* From https://css.glass */
+background: rgba(179, 156, 253, 0.446);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.8px);
+-webkit-backdrop-filter: blur(8.8px);
+border: 1px solid rgba(255, 255, 255, 1);
+
+    /* background-color: rgb(179, 156, 253); */
+   
+}
+
+.card4{
+    /* From https://css.glass */
+background: rgba(177, 251, 251, 0.701);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.8px);
+-webkit-backdrop-filter: blur(8.8px);
+border: 1px solid rgba(255, 255, 255, 1);
+
+    /* background-color: rgb(177, 251, 251); */
+   
+}
+
+.card-cen{
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.bi-laptop{
+    color: rgb(255, 199, 15);
+}
+
+.bi-building{
+    color: rgb(20, 96, 202);
+}
+.card-tex{
+    margin: 10px 40px;
+}
+.bi-journal-medical{
+    color: rgb(89, 41, 191);
+}
+.bi-patch-check-fill{
+    color: rgb(20, 187, 220);
+}
+@media only screen and (max-width: 600px) {
+
+    .fbf{
+        display: flex;
+        position: relative;
+        left: 10px;
+    }
     
+    .clfbf{
+        display: flex;
+        padding: 10px;
+        /* background-color: red; */
+        position: relative;
+        /* width: 200px; */
+        /* background-color: red; */
+        width: 115px;
+        top: 20px;
+        right: 152px;
+        color: rgb(16, 16, 56);
+    }
+
+    .clfbf b{
+        position: relative;
+        left: 6px;
+
+        bottom: 2px;
+        /* background-color: red; */
+        width: 100px;
+        cursor: pointer;
+    }
+
+
+    .b2,
+    .star_8,
+    .form-control,
+    .bu {
+        display: none;
+    }
+
+    .menu {
+        position: absolute;
+        left: 0;
+        background-color: rgb(255, 255, 255);
+        z-index: 1;
+    }
+
+    .heading {
+        font-size: 60px;
+        position: relative;
+        top: -50px;
+        right: 70px;
+    }
+
+    .color {
+        position: relative;
+        bottom: 220px;
+        right: 50px;
+    }
+
+    .bios {
+        position: relative;
+        right: 80px;
+        font-size: 20px;
+        top: 0px;
+        /* background-color: red; */
+        width: 300px;
+
+    }
+    .gResume{
+        position: relative;
+        left: 0px;
+        top: 30px;
+    }
+    .box-card{
+        position: relative;
+        
+      
+    }
+
+
+    .card1  , .card2 , .card3 , .card4{
+      /* width: 365px;
+      height: 200px; */
+      margin: 0px 66px ;
+      height: 110px;
+    }
 }
